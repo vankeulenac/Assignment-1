@@ -15,9 +15,9 @@ in the growth of productiviy". (The Informational Economy)
 
 Students may have the chance to choose between four options while enrolled in a Massive Open Online Course:
 1- Only study
-2- Study and find a volunteer experience
-3- Study and look for a job
-4 - Study, find a volunteer experience and look for a job
+2- Study and find a volunteer experience (only available for students who complete a MOOC successfully)
+3- Study and look for a job (only available for students who complete a MOOC successfully)
+4 - Study, find a volunteer experience and look for a job (only available for students who complete a MOOC successfully)
 
 At the same time, social organizations and headhunters may select students in the data base by looking at their profiles, see best
 ones ranked, see most active ones and also their availability. 
