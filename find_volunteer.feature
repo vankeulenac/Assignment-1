@@ -12,12 +12,12 @@ Then I should see: "No matching students found"
 
 Scenario: see top ranked students available
 Given the following student database
-Name            |  Rank | Activity level | Volunteering   
+Name            |  Rank | 	Activity level 		 | Volunteering   
 Alex Stevens 	|   2	|		8		 |	Yes
 Claire Williams	|   3	|		10		 |	Yes
 Fabio Santos	|   5	|		5	 	 |	No
-John Snow		|   4	|		9	 	 |  Yes
-Steve Lee		|   1	|       10       |  No
+John Snow	|   4	|		9	 	 |  	Yes
+Steve Lee	|   1	|       	10               |  	No
 
 		
 When I search the following criteria 
@@ -29,12 +29,12 @@ Then the result should include Alex Stevens and Claire Williams
 
 Scenario: see most active students
 Given the following student database
-Name            |  Rank | Activity level | Volunteering   
+Name            |  Rank | 	Activity level 		 | Volunteering   
 Alex Stevens 	|   2	|		8	 	 |	Yes
 Claire Williams	|   3	|		10	 	 |	Yes
 Fabio Santos	|   5	|		5	 	 |	No
-John Snow		|   4	|		9	 	 |  Yes
-Steve Lee		|   1	|       10       |  No 
+John Snow	|   4	|		9	 	 |   	Yes
+Steve Lee	|   1	|       	10       	 |  	No 
 
 When I search the following criteria
 Activity level  | >=6
@@ -45,12 +45,12 @@ Then the result should include Alex Stevens, Claire Williams and John Snow
 
 Scenario: see all students interested in volunteering 
 Given the following student database
-Name            |  Rank | Activity level | Volunteering   
+Name            |  Rank | 	Activity level 		 | Volunteering   
 Alex Stevens 	|   2	|		8		 |	Yes
 Claire Williams	|   3	|		10		 |	Yes
 Fabio Santos	|   5	|		5		 |	No
-John Snow		|   4	|		9	 	 |      Yes
-Steve Lee		|   1	|       10       |      No 
+John Snow	|   4	|		9	 	 |      Yes
+Steve Lee	|   1	|      		10       	 |      No 
 
 When I search for the following criteria
 Volunteering  | Yes
